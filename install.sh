@@ -87,7 +87,7 @@ cd "$tmpdir"
 yum -y install git python-pip
 python-pip install awscli
 
-git clone -b master https://github.com/widdix/aws-ec2-ssh.git
+git clone -b master https://github.com/SpeedETab/aws-ec2-ssh.git
 
 cd "$tmpdir/aws-ec2-ssh"
 
