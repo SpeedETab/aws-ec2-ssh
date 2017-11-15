@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+PATH=/usr/local/bin:$PATH
+
 # source configuration if it exists
 [ -f /etc/aws-ec2-ssh.conf ] && . /etc/aws-ec2-ssh.conf
 
